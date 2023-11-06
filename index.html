@@ -42,11 +42,13 @@
 
     <section> 
         <h4>Contact Me</h4>
-        <form> 
+        <form onsubmit="return processMessage()"> 
             <fieldset>
-                <legend>Send me a message: </legend> <input type="text" name="message" placeholder="input your message here">
+                <legend>Send me a message: </legend> <input type="text" name="message" id="message" placeholder="input your message here" required>
                 <button type="submit">Send</button>
             </fieldset>
+
+            <script src="functions.js">return processMessage()</script>
         </form>
     </section>
 </body>
