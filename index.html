@@ -2,55 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects.EDU</title>
-    <link rel="stylesheet" href="https://willdev12.github.io/CremeCSS/creme.css"> 
-    <link rel="stylesheet" href="StyleByAlex.css"
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects.EDU</title>
+  <link rel="stylesheet" href="https://willdev12.github.io/CremeCSS/creme.css"> 
+  <link rel="stylesheet" href="StyleByAlex.css"
 </head>
 
 
 <body>
-    <main>
-        <h1 class="cc-panel">My Personal Website</h1>
-        <h2>By Alex Skilton</h2>
-    </main>
+  <main>
+    <h1 class="cc-panel">My Personal Website</h1>
+    <h2>By Alex Skilton</h2>
+  </main>
 
-    <section>
-        <h3>Who am I?</h3>
-        
-        <table>
-            <thead>
-              <tr>
-                <th colspan="2">My Projects</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="https://tlordt.github.io/LogBook/">This Website!</a></td>
-                <td>a website to store my personal and university projects</td>
-              </tr>
-              <tr>
-                <td>LogBook</td>
-                <td>a strength training tracker and social media platform</td>
-              </tr>
-            </tbody>
-          </table>
-          
+  <section>
+    <h3>Who am I?</h3>
+      
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">My Projects</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://tlordt.github.io/LogBook/">This Website!</a></td>
+          <td>a website to store my personal and university projects</td>
+        </tr>
+        <tr>
+          <td>LogBook</td>
+          <td>a strength training tracker and social media platform</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    </section>
+  <section> 
+    <h4>Contact Me</h4>
+    <form onsubmit="return processMessage()"> 
+      <fieldset>
+        <legend>Send me a message: </legend> <input type="text" name="message" id="message" placeholder="input your message here" required>
+        <button type="submit">Send</button>
+      </fieldset>
 
-    <section> 
-        <h4>Contact Me</h4>
-        <form onsubmit="return processMessage()"> 
-            <fieldset>
-                <legend>Send me a message: </legend> <input type="text" name="message" id="message" placeholder="input your message here" required>
-                <button type="submit">Send</button>
-            </fieldset>
-
-            <script src="functions.js">return processMessage()</script>
-        </form>
-    </section>
+      <script src="functions.js"> return processMessage() </script>
+    </form>
+  </section>
 </body>
 
 </html>
