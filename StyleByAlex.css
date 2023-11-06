@@ -1,8 +1,13 @@
-h1, h2, p {
+  h1, h2, p {
     text-align: center;
   }
 
-body {
+
+  body {
     text-align: center;
     background-color: blanchedalmond
+  }
+
+  table {
+    text-align: center;
   }
