@@ -12,37 +12,27 @@
 
 <body>
   <main>
-    <h1 class="cc-panel">My Personal Website</h1>
-    <h2>By Alex Skilton</h2>
+    <h1 class="cc-panel"> Alex's Website</h1>
   </main>
 
   <section>
     <h3>Who am I?</h3>
       
-    <table>
-      <thead>
-        <tr>
-          <th colspan="2">My Projects</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="https://tlordt.github.io/MyWebsite/">This Website!</a></td>
-          <td>a website to store my personal and university projects</td>
-        </tr>
-        <tr>
-          <td>LogBook</td>
-          <td>a strength training tracker(in-development)</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="dropdown">
+    <button class="dropbtn">My Projects</button>
+    <div class="dropdown-content">
+      <a href="https://tlordt.github.io/MyWebsite/">This Website!</a>
+      <a href="#">LogBook(ud)</a>
+    </div>
   </section>
 
   <section> 
     <h4>Contact Me</h4>
     <form onsubmit="return processMessage()"> 
       <fieldset>
-        <legend>Send me a message: </legend> <input type="text" name="message" id="message" placeholder="input your message here" required>
+        <legend>Send me a message: </legend> 
+        <input type="text" name="username" id="username" placeholder="input name" required>
+        <input type="text" name="message" id="message" placeholder="input your message here" required>
         <button type="submit">Send</button>
       </fieldset>
 
